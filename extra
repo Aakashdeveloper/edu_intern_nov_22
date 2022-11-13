@@ -43,3 +43,44 @@ Extension for vs code
 
 //////////HTML/////
 > Design Zomato Frontend
+
+
+HTML 
+> Structure (Raw Structure)
+> Tags
+
+CSS 
+> Design
+> Properties 
+
+JavaScript
+> Logical part
+
+
+Head
+> All Css links
+> Javascript
+> Except title thing not visible to user
+
+body
+> All content of website
+
+
+Inline
+> Always start in the same line
+> Only take the space which is required
+> span, a, img
+Block
+> Start from the new line
+> Always take the whole width of screen
+> h1-h6, p ,div
+
+
+////////
+Name
+Profile Image
+About You
+Skill Image
+Map
+Social Link
+Copyright
