@@ -84,3 +84,37 @@ Skill Image
 Map
 Social Link
 Copyright
+
+/////////////
+inline>styletag>stylesheet
+
+inline
+{
+    color:'red'
+    height:'200px'
+}
+
+styletag
+{
+    color:'green',
+    width:'200px',
+    background:'orange'
+}
+
+stylesheet
+{
+    font-size:'30px',
+    background:'red',
+    border-radius:'20%',
+    height:'300px'
+}
+
+
+{
+   color:'red',
+   height:'200px',
+   width:'200px',
+   background:'orange',
+   font-size:'30px',
+   border-radius:'20%'
+}
