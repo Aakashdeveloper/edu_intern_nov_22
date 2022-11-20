@@ -118,3 +118,16 @@ stylesheet
    font-size:'30px',
    border-radius:'20%'
 }
+
+////////////////////////////////////////////////////////////////
+tagName
+> If your tag unique in the page
+> header body footer
+
+id
+> To target particular element
+> #
+
+className
+> TO target group of element with same property
+> .

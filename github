@@ -1,0 +1,20 @@
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+//firstTime from new folder
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/akkiprofile.git
+git push -u origin master
+
+/////
+git config global user.name aakashdevelop
+git config global user.email a@a.com
+
+fatal error
+> git remote add origin https://aakashdeveloper:token value@github.com/Aakashdeveloper/akkiprofile.git
+
+///next every time from same folder
+git add .
+git commit -m "code"
+git push

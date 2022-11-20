@@ -1,0 +1,30 @@
+header{
+    text-align:center
+}
+#main{
+   margin-left:3%
+}
+
+.card{
+    height:400px;
+    width:20%;
+    background-color:#a67d85;
+    float:left;
+    margin:2%;
+    text-align: center;
+    overflow: scroll;
+}
+.card img{
+    height:200px;
+    width:100%
+}
+.blue{
+    background-color:skyblue
+}
+
+#pink{
+    background-color:#beaf9f
+}
+.manali{
+    background-color:#589bc6
+}
