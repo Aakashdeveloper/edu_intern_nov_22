@@ -2,7 +2,8 @@ header{
     text-align:center
 }
 #main{
-   margin-left:3%
+   margin-left:3%;
+   display: inline-block;
 }
 
 .card{
@@ -10,9 +11,18 @@ header{
     width:20%;
     background-color:#a67d85;
     float:left;
+    /* display: inline-block; */
     margin:2%;
-    text-align: center;
     overflow: scroll;
+    text-align: center;
+   
+}
+.imgDiv{
+    height:200px;
+}
+.textDiv{
+    overflow: scroll;
+    height:200px;
 }
 .card img{
     height:200px;
@@ -27,4 +37,9 @@ header{
 }
 .manali{
     background-color:#589bc6
+}
+
+/*Footer*/
+footer{
+    text-align: center
 }
