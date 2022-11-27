@@ -18,3 +18,7 @@ fatal error
 git add .
 git commit -m "code"
 git push
+
+
+//download 
+git clone https://github.com/Aakashdeveloper/akkiprofile.git
