@@ -48,3 +48,26 @@ var movies = [
         "Ind":"Hollywood"
     }
 ]
+
+
+var movie={
+    name:"Jab we met",
+    rating:4.7,
+    Ind:"Bollywood"
+}
+
+for(key in movie){
+    console.log(key)
+}
+name
+rating
+Ind
+
+
+
+for(key in movie){
+    console.log(movie[key])
+}
+Jab we met
+4.7
+Bollywood

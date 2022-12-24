@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="form.css" rel="stylesheet"/>
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <hr/>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Forms
+                </div>
+                <div class="panel-body">
+                    <div class="form-group" id="fdiv">
+                        <label for="fname" class="control-label">FirstName</label>
+                        <input name="fname" class="form-control" id="fname" 
+                        onblur="validateFname()"/>
+                        <p id="fout"></p>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="mail">Email</label>
+                        <input name="mail" class="form-control" id="mail"
+                        oninput="validateEmail()"/>
+                        <p id="eout"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
