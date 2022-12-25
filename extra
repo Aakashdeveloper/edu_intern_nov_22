@@ -172,3 +172,30 @@ xl > 1200px
 xxl> 1400px
 
 >>> Eval 
+2,207,844
+
+Single threaded async non-blocking I/O
+
+package.json
+> Entry point to application
+> Meta Data (name,version,description)
+> Script (start,build,test)
+> Packages required for application
+
+///Step to generate package
+* NodeJs must be installed
+> Go inside the folder using cmd
+> npm init
+> Answer all question
+> type yes
+
+
+///setup mongodb
+> download
+(https://www.mongodb.com/try/download/community)
+
+> Creatd folder by name of data inside c drive  C:\data
+> Inside data create folder db  C:\data\db
+
+Cloud signup
+https://account.mongodb.com/account/login?_ga=2.155444475.1583959345.1671887308-1264525520.1602246073

@@ -1,0 +1,260 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*header*/
+header{
+    height:60px;
+    /* border:5px solid red; */
+    background-color:#3b2632
+}
+#brand{
+    float:left;
+    color:white;
+    font-size:30px;
+    margin-top:1%;
+    margin-left:1%
+}
+#social{
+    float:right;
+    margin-top:5px;
+}
+.socialLogo{
+    height:50px;
+    width:50px;
+}
+
+/*Search*/
+#search{
+    height:450px;
+    /* border:5px solid green; */
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 90px;
+    animation: revolve 10s infinite;
+}
+
+@keyframes revolve{
+    0% {
+        transform:rotate(30deg);
+        margin-left: 2%;
+    }
+    25% {
+        transform:rotate(90deg);
+        margin-left: 20%;
+    }
+    50% {
+        transform:rotate(180deg);
+        margin-left: 40%;
+    }
+    75% {
+        transform:rotate(270deg);
+        margin-left: 80%;
+    }
+    100% {
+        transform:rotate(360deg);
+        margin-left: 40%;
+    }
+}
+
+#logo >span{
+    margin-left: 21%;
+    margin-top: 13%;
+    position: absolute;
+}
+
+#heading{
+    font-size: 60px;
+    margin-left: 25%;
+    margin-top: 14%;
+    position: absolute;
+    color:white;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#dropdown{
+    height:60px;
+    width: 50%;
+    /* border:2px solid white; */
+    margin-left: 28%;
+    margin-top: 22%;
+    position: absolute;
+}
+select{
+    height:60px;
+    width: 40%;
+    font-size:20px;
+    text-align: center;
+}
+.restSelect{
+    width: 59%;
+}
+
+/*QuickSearch*/
+#quickSearch{
+    display:inline-block;
+    /* border:5px solid orange; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%; 
+}
+
+.quickHeading{
+    color:#3b2632;
+    font-size:30px;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    margin-left: 2%;
+}
+
+.quickHeading:hover{
+    color:#bd3c85;
+    font-size:35px;
+}
+
+.quickSubHeading{
+    color:gray;
+    line-height:2;
+    font-size:20px;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    box-shadow: 10px 20px 30px #3b2632;
+    float:left;
+    margin-top:3%;
+    margin-left: 2%;
+    animation:dance 10s infinite;
+}
+
+@keyframes dance{
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    40% {transform:scale(1.1)}
+    50% {transform:rotate(5deg)}
+    75% {transform:rotate(0deg)}
+    100% {transform:rotate(-5deg)}
+}
+
+.tileContainer:hover{
+    transform:scale(1.1)
+    /* transform:skewY(30deg) */
+    /* transform:rotate(180deg) */
+    /* transform:translate(100px, 100px) */
+}
+.tileComponent1{
+    width:52%;
+    float:left;
+}
+.tileComponent1>img{
+    width:100%;
+    height:100%;
+}
+.tileComponent2{
+    width:45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+.compHeading{
+    color:#3b2632;
+    font-size:25px;
+    font-weight: bolde;
+}
+
+.compHeading>a{
+    color:#3b2632 !important;
+}
+
+.compSubHeading{
+    color:gray;
+    font-size:20px;
+}
+
+/*Footer*/
+footer{
+    /* height:220px; */
+    /* border:5px solid purple; */
+    margin-top: 2%;
+    background-color:#3b2632 ;
+    color:white;
+    text-align: center;
+}
+
+.footText{
+    font-size:20px
+}
+
+.footDiv{
+    display:inline-block;
+    width:32%;
+    border-right:2px solid white
+}
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
+
+
+@media screen and (max-width:1600px) {
+    body{
+        background-color:#d9b6ca
+    }
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color:#deddb7
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background-color:#b8e2b8
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color:#badfe5
+    }
+    .tileContainer{
+        width:45%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background-color:#beb9e5
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color:#e9b6bf
+    }
+    .tileContainer{
+        width:90%;
+    }
+}
