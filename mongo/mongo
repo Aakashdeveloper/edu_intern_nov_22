@@ -1,0 +1,97 @@
+///setup mongodb
+> download
+(https://www.mongodb.com/try/download/community)
+
+> Creatd folder by name of data inside c drive  C:\data
+> Inside data create folder db  C:\data\db
+
+Cloud signup
+https://account.mongodb.com/account/login?_ga=2.155444475.1583959345.1671887308-1264525520.1602246073
+
+mongo compass
+> https://www.mongodb.com/try/download/compass
+
+///////////
+Step to start mongo Server
+/////////
+# Window
+> open cmd and go inise bin folder
+> cd c:\programmFile\mongodb\5.3\server\bin
+> mongod
+(this will start mongodb server on port 27017)
+** Do not close the cmd if you are using mongo with app locally
+
+///////////
+Step to start mongo client
+/////////
+> open new cmd and go inise bin folder
+> cd c:\programmFile\mongodb\5.3\server\bin
+> mongo
+(this is use for testing query)
+
+// SQL (Mysql,postgres)
+
+RollNo | Hindi | English |  Comp |
+  1    |  89   |         |       |
+  2    |       |   76    |       |
+  3    |  78   |         |   79  |
+
+
+// (NoSql) Mongo
+[
+    {
+        RollNo:1,
+        Hindi:89
+    },
+    {
+        RollNo:2,
+        English:76
+    },
+    {
+        RollNo:3,
+        Hindi:78,
+        Comp:79
+    }
+]
+
+SQL       Mongo
+Database  Database
+Table     Collections
+Row       Document
+Select    Find
+Insert    Insert
+Update    Update
+Delete    Remove
+
+# To See all databases
+> show dbs
+
+# To go inside db
+> use dbname
+
+# To see collections
+> show collections
+
+# To see document(records)(find query)
+> db.collectionName.find()
+> db.location.find()
+
+> db.location.find().pretty()
+
+# To create new database
+> use databasename
+
+# to insert record
+> db.collectionName.insert({"name":"Rahul"})
+
+db.user.insert({_id:1,"name":"Nikita"})
+db.user.insert({_id:2,"name":"Neha"})
+
+
+_id 12byts
+5bytes > random number
+3bytes > Series
+4bytes > timestamp
+
+
+mongodb+srv://test:test123@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority

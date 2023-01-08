@@ -190,18 +190,12 @@ package.json
 > type yes
 
 
-///setup mongodb
-> download
-(https://www.mongodb.com/try/download/community)
-
-> Creatd folder by name of data inside c drive  C:\data
-> Inside data create folder db  C:\data\db
-
-Cloud signup
-https://account.mongodb.com/account/login?_ga=2.155444475.1583959345.1671887308-1264525520.1602246073
-
 /// Global Package
 
 nodemon
 > open cmd as admin
 > npm i -g nodemon
+
+
+3000 F
+9200 B
