@@ -94,4 +94,21 @@ _id 12byts
 4bytes > timestamp
 
 
+////////////////////////////////
+FInd with Condition
+
+> db.restaurants.find({state_id:3}).pretty()
+
+> db.restaurants.find({state_id:3,average_rating:5}).pretty()
+
+// projection
+> db.restaurants.find({},{restaurant_name:1,average_rating:1,cost:1}).pretty()
+
+// condition and projection
+> db.restaurants.find({state_id:3},{restaurant_name:1,average_rating:1,cost:1,state_id:1}).pretty()
+
+
 mongodb+srv://test:test123@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+
+// nested data
+> db.restaurants.find({"mealTypes.mealtype_id":1},{restaurant_name:1,average_rating:1,cost:1}).pretty()

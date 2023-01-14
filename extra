@@ -199,3 +199,15 @@ nodemon
 
 3000 F
 9200 B
+
+Params
+> What you pass after /
+> It is complusory to define in route
+> If define in route than we need to pass
+> Should use for passing 1 or 2 values only
+
+QueryParams
+> What you pass after ?
+> No need to define
+> Optional to pass
+> Can use to pass multiple values
