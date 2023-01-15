@@ -211,3 +211,11 @@ QueryParams
 > No need to define
 > Optional to pass
 > Can use to pass multiple values
+
+
+C > Create  (POST)
+R > Read    (GET)
+U > Update  (PUT)
+D > Delete  (DELETE)
+
+https://render.com/
