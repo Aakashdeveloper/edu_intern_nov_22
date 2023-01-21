@@ -219,3 +219,10 @@ U > Update  (PUT)
 D > Delete  (DELETE)
 
 https://render.com/
+
+
+////////
+Step to generate react app
+//////
+> open cmd and go inside foler
+> npx create-react-app appname
