@@ -194,13 +194,13 @@ MongoClient.connect(mongoUrl,(err,client) => {
 })
 
 
-/*
-app.get('/restaurant/:id',(req,res) => {
-    console.log(req.params.id)
-    let state_id = Number(req.params.id)
-    db.collection('restaurants').find({state_id:state_id}).toArray((err,data) => {
-        if(err) throw err;
-        res.send(data)
-    })
-})
-*/
+// /*
+// app.get('/restaurant/:id',(req,res) => {
+//     console.log(req.params.id)
+//     let state_id = Number(req.params.id)
+//     db.collection('restaurants').find({state_id:state_id}).toArray((err,data) => {
+//         if(err) throw err;
+//         res.send(data)
+//     })
+// })
+// */

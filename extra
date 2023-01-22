@@ -226,3 +226,7 @@ Step to generate react app
 //////
 > open cmd and go inside foler
 > npx create-react-app appname
+
+React is a frontend framework 
+which help to build single page application 
+using component based structure
