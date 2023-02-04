@@ -230,3 +230,27 @@ Step to generate react app
 React is a frontend framework 
 which help to build single page application 
 using component based structure
+
+////////
+Class
+> Logical Component
+> We can maintain state
+> Calling api, writting logics
+
+functional
+> Dumb Component
+> We cannot maintain state
+> Only Use for display purpose
+
+hooks
+
+
+///////////
+State
+> Act like a local variable
+> Each component can have its own state
+> We can update the value of the state
+> Any data interaction will happen through state
+Props
+> Use for transfering the data between nested component
+> We cannot update the value of props
