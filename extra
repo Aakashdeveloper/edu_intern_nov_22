@@ -254,3 +254,12 @@ State
 Props
 > Use for transfering the data between nested component
 > We cannot update the value of props
+
+
+parent > child (props)
+child > parent (props with callback)
+
+default props
+> History (redirection)
+> Location (queryParams)
+> Match (params)
