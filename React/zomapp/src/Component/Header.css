@@ -1,0 +1,27 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*header*/
+header{
+    height:60px;
+    /* border:5px solid red; */
+    background-color:#3b2632
+}
+#brand{
+    float:left;
+    color:white;
+    font-size:30px;
+    margin-top:1%;
+    margin-left:1%
+}
+#social{
+    float:right;
+    margin-top:5px;
+}
+.socialLogo{
+    height:50px;
+    width:50px;
+}
