@@ -5,6 +5,7 @@
     width:80%;
     margin-left: 10%;
     margin-top: 2%; 
+    height:100%
 }
 
 .quickHeading{
@@ -56,6 +57,7 @@
 .tileComponent1{
     width:52%;
     float:left;
+    height:100%
 }
 .tileComponent1>img{
     width:100%;

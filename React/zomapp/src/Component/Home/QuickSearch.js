@@ -1,96 +1,32 @@
-import React from 'react';
-import './QuickSearch.css'
+import React,{useState,useEffect} from 'react';
+import './QuickSearch.css';
+import QuickDisplay from './QuickDisplay';
+
+const url = "http://3.17.216.66:4000/quicksearch"
 
 const QuickSearch = () => {
+    const [title] = useState('Quick Search');
+    const [subtitle] = useState('Find Restaurants By MealType');
+    const [mealType,setMeal] = useState('')
+
+    useEffect(()=>{
+        fetch(url,{method: 'GET'})
+        .then((res) => res.json())
+        .then((data) => {
+            setMeal(data)
+        })
+    },[])
+
     return(
         <>
             <div id="quickSearch">
-                <span class="quickHeading">
-                    Quick Search
+                <span className="quickHeading">
+                    {title}
                 </span>
-                <span class="quickSubHeading">
-                    Find Restaurants By MealType
+                <span className="quickSubHeading">
+                    {subtitle}
                 </span>
-                <div class="mainBox">
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="images/drinks.png" alt="drinks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="compHeading">
-                                <a href="../listing/listing.html">BreakFast</a>
-                            </div>
-                            <div class="compSubHeading">
-                                Best Deal For BreakFast
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="images/dinner.png" alt="drinks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="compHeading">
-                                <a href="../listing/listing.html">BreakFast</a>
-                            </div>
-                            <div class="compSubHeading">
-                                Best Deal For BreakFast
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="images/drinks.png" alt="drinks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="compHeading">
-                                <a href="../listing/listing.html">BreakFast</a>
-                            </div>
-                            <div class="compSubHeading">
-                                Best Deal For BreakFast
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="images/bombay.jpg" alt="drinks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="compHeading">
-                                <a href="../listing/listing.html">BreakFast</a>
-                            </div>
-                            <div class="compSubHeading">
-                                Best Deal For BreakFast
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="images/snacks.png" alt="drinks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="compHeading">
-                                <a href="../listing/listing.html">BreakFast</a>
-                            </div>
-                            <div class="compSubHeading">
-                                Best Deal For BreakFast
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tileContainer">
-                        <div class="tileComponent1">
-                            <img src="images/nightlife.png" alt="drinks"/>
-                        </div>
-                        <div class="tileComponent2">
-                            <div class="compHeading">
-                                <a href="../listing/listing.html">BreakFast</a>
-                            </div>
-                            <div class="compSubHeading">
-                                Best Deal For BreakFast
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <QuickDisplay mealData={mealType}/>
             </div>
         </>
     )

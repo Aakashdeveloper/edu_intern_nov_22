@@ -1,22 +1,21 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
+import {Link} from 'react-router-dom';
 
 const Header = ( ) => {
     return(
         <header>
             <div id="brand">
-                Developer Funnel
+                Developer Funnel &nbsp; 
+                <Link className='btn btn-info' to="/">Home</Link>
             </div>
             <div id="social">
-                <a href="">
-                    <img src="https://i.ibb.co/dtzG625/facebook.png" alt="fblogo" class="socialLogo"/>
-                </a>
-                <a href="">
-                    <img src="https://i.ibb.co/GHKVNYt/insta.png" alt="fblogo" class="socialLogo"/>
-                </a>
-                <a href="">
-                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fblogo" class="socialLogo"/>
-                </a>
+                <Link className='btn btn-success' to="/login">
+                    <span className='glyphicon glyphicon-log-in'></span> LogIn
+                </Link> &nbsp;
+                <Link className='btn btn-warning' to="/register">
+                    <span className='glyphicon glyphicon-user'></span> Register
+                </Link>
             </div>
         </header>
     )
