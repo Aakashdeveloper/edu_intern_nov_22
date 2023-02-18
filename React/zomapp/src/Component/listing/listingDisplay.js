@@ -15,7 +15,7 @@ const ListingDisplay = (props) => {
                                 </div>
                                 <div className='col-md-7'>
                                     <div className='hotel_name'>
-                                        <Link to="/">
+                                        <Link to={`/details?restId=${item.restaurant_id}`}>
                                             {item.restaurant_name}
                                         </Link>
                                         <div className='city_name'>{item.address}</div>
