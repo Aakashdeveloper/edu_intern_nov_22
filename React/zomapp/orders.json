@@ -1,0 +1,34 @@
+{
+  "orders": [
+    {
+      "id": 56928,
+      "hotel_name": "Captain Sam's",
+      "name": "Nikita",
+      "email": "nikki@gmail.com",
+      "cost": 308,
+      "phone": "987654321",
+      "address": "Hno 61 Delhi",
+      "menuItem": "26,28"
+    },
+    {
+      "id": 48360,
+      "hotel_name": "Burger King",
+      "name": "Nikita",
+      "email": "nikki@gmail.com",
+      "cost": 309,
+      "phone": "987654321",
+      "address": "Hno 61 Delhi",
+      "menuItem": "52,55,53"
+    },
+    {
+      "id": 50547,
+      "hotel_name": "Chandni Chowk 2 Bangalore",
+      "name": "Ankit",
+      "email": "ankit@gmail.com",
+      "cost": 405.9,
+      "phone": "77876543",
+      "address": "Hno 81 Pune",
+      "menuItem": "63,65,64"
+    }
+  ]
+}
