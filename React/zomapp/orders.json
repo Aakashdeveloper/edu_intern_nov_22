@@ -29,6 +29,26 @@
       "phone": "77876543",
       "address": "Hno 81 Pune",
       "menuItem": "63,65,64"
+    },
+    {
+      "id": 92225,
+      "hotel_name": "Street Foods By Punjab Grill",
+      "name": "Nikita",
+      "email": "nikki@gmail.com",
+      "cost": 427,
+      "phone": "987654321",
+      "address": "Hno 61 Delhi",
+      "menuItem": "36,39,40"
+    },
+    {
+      "id": 53951,
+      "hotel_name": "AMA Cafe",
+      "name": "Nikita",
+      "email": "nikki@gmail.com",
+      "cost": 475,
+      "phone": "987654321",
+      "address": "Hno 61 Delhi",
+      "menuItem": "34,32"
     }
   ]
 }
