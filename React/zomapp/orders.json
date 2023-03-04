@@ -1,54 +1,17 @@
 {
   "orders": [
     {
-      "id": 56928,
-      "hotel_name": "Captain Sam's",
-      "name": "Nikita",
-      "email": "nikki@gmail.com",
-      "cost": 308,
-      "phone": "987654321",
-      "address": "Hno 61 Delhi",
-      "menuItem": "26,28"
-    },
-    {
-      "id": 48360,
+      "id": 80667,
       "hotel_name": "Burger King",
       "name": "Nikita",
       "email": "nikki@gmail.com",
-      "cost": 309,
+      "cost": 378.14,
       "phone": "987654321",
       "address": "Hno 61 Delhi",
-      "menuItem": "52,55,53"
-    },
-    {
-      "id": 50547,
-      "hotel_name": "Chandni Chowk 2 Bangalore",
-      "name": "Ankit",
-      "email": "ankit@gmail.com",
-      "cost": 405.9,
-      "phone": "77876543",
-      "address": "Hno 81 Pune",
-      "menuItem": "63,65,64"
-    },
-    {
-      "id": 92225,
-      "hotel_name": "Street Foods By Punjab Grill",
-      "name": "Nikita",
-      "email": "nikki@gmail.com",
-      "cost": 427,
-      "phone": "987654321",
-      "address": "Hno 61 Delhi",
-      "menuItem": "36,39,40"
-    },
-    {
-      "id": 53951,
-      "hotel_name": "AMA Cafe",
-      "name": "Nikita",
-      "email": "nikki@gmail.com",
-      "cost": 475,
-      "phone": "987654321",
-      "address": "Hno 61 Delhi",
-      "menuItem": "34,32"
+      "menuItem": "52,54",
+      "status": "TXN_SUCCESS",
+      "date": "2023-03-04%2012:56:50.0",
+      "bank_name": "Kotak%20Bank"
     }
   ]
 }
